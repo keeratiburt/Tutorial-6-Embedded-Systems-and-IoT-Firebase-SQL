@@ -1,14 +1,18 @@
+/*
+ไฟล์นี้ทดสอบการส่งค่า int และ float ขึ้นไปยัง Firebase
+*/
+
 #include <Firebase_ESP_Client.h>    // import ไลบรารี่สำหรับ Firebase
 
 // การทำงานของ token และ payload ที่จำเป็นสำหรับ firebase
 #include "addons/TokenHelper.h"     
 #include "addons/RTDBHelper.h"
 
-#define WiFi_SSID "DWR-921-1246"          // ระุชื่อ wifi hotspot
-#define WiFi_PASSWORD "gdupiNiydahk2015"  // ระบุรหัส wifi hotspot
+#define WiFi_SSID "wifi_ssid"          // ระุชื่อ wifi hotspot
+#define WiFi_PASSWORD "wifi_password"  // ระบุรหัส wifi hotspot
 
-#define API_KEY "AIzaSyA5TkjExR1GIm0WsNAG2ECct-Yxp9IjnE4"     // API KEY ที่ได้จาก Firebase
-#define DATABASE_URL "https://esp32-demo-68043-default-rtdb.asia-southeast1.firebasedatabase.app"   // ระบุลิงค์ Realtime Database
+#define API_KEY "ระบุ API-KEY ตรงนี้"     // API KEY ที่ได้จาก Firebase
+#define DATABASE_URL "ระบุลิงค์ของ database ตรงนี้"   // ระบุลิงค์ Realtime Database
 
 // ตัวแปรที่จำเป็นสำหรับใช้งาน Firebase ในการเชื่อมต่อและการส่งค่า
 FirebaseData fbdo;
