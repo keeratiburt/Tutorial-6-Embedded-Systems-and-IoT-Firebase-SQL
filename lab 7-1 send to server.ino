@@ -2,14 +2,14 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "SSID";
-const char* pwd = "password";
+const char* ssid = "SSID";        // เปลี่ยนข้อมูลเป็น WiFi ของตัวเอง
+const char* pwd = "password";     // รหัสผ่าน WiFi
 
 float esp_temp = 25.5;
 float esp_humid = 79;
 
-const char* serverName = "https://ชื่อเว็บ.000webhostapp.com/data_receive.php";
-String esp_api_key = "1234567899";
+const char* serverName = "https://ชื่อเว็บ.000webhostapp.com/data_receive.php"; // เปลี่ยนเป็นชื่อเว็บไซต์ตัวเอง และเติม /data_receive.php ต่อท้าย
+String esp_api_key = "1234567899";  // ตั้งค่า API-KEY ของตัวเอง
 
 
 void setup() {
