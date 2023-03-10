@@ -25,6 +25,13 @@ T 7.1 ส่งค่าขึ้นฐานข้อมูล Firebase
 5. ทำการอัพโหลดโค้ดและดูผลลัพธ์บน Firebase จะต้องขึ้นค่า int และ float
 6. ส่งค่าเซ็นเซอร์ Temperature หรือ Ultrasonic ขึ้นไปยัง Firebase โดยใช้โค้ดเซ็นเซอร์จากแลปก่อนหน้า
 
+หมายเหตุ
+หากพบ error ขณะทำการ upload เกี่ยวกับ SD.h และ unsupported board ให้ดำเนินการดังนี้
+1. ไปที่ File -> Preferences -> Aditional boards manager URLs
+2. คัดลอก URL นี้ไปใส่ในช่อง boards manager URLs >> https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+3. ติดตั้ง library ของบอร์ดโดยไปที่ Tools -> Board -> Boards Manager
+4. ค้นหา "esp32" และติดตั้งเวอร์ชัน 2.0.1
+
 
 --------------------
 
