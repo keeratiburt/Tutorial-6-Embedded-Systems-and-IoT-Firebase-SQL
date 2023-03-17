@@ -36,13 +36,15 @@ T 7.1 ส่งค่าขึ้นฐานข้อมูล Firebase
 --------------------
 
 T 7.2 ส่งค่าขึ้นฐานข้อมูล SQL
-1. ดูวิธีการสร้าง database ที่ลิงค์ https://www.youtube.com/watch?v=F5T8isU13bU
-2. ดูวิธีการนำค่าขึ้นฐานข้อมูลที่ลิงค์ https://www.youtube.com/watch?v=C_LXWEQAy5w
-3. เขียนโปรแกรมฝั่ง cloud โดยดาวน์โหลดไฟล์ con_db.php, data_receive.php ได้ที่โฟลเดอร์ lab7.2
+1. ดูวิธีการสร้าง database ที่ลิงค์ https://www.youtube.com/watch?v=F5T8isU13bU (ดูถึงแค่นาทีที่ 20)
+2. เขียนโปรแกรมฝั่ง cloud โดยดาวน์โหลดไฟล์ con_db.php, data_receive.php ได้ที่โฟลเดอร์ lab7.2
+3. นำไฟล์ con_db.php และ data_receive.php ไปใส่ไว้ในโฟลเดอร์ public_html บน 000webhost
 4. เปลี่ยนค่าการเชื่อมต่อข้อมูลในไฟล์ con_db.php ให้เป็นข้อมูลของตัวเอง
 5. เขียนโปรแกรมฝั่ง esp32 โดยดาวน์โหลดไฟล์ lab_7.ino ได้ที่โฟลเดอร์ lab7.2
-6. เปลี่ยนค่า WiFi ให้เป็นของตัวเอง
+6. เปลี่ยนค่า WiFi และ servername ให้เป็นของตัวเอง
 7. อัพโหลดโค้ดและดูค่าที่ถูกส่งเข้าไปยังฐานข้อมูล
+
+เสริม: ดูวิธีการนำค่าขึ้นฐานข้อมูลที่ลิงค์ https://www.youtube.com/watch?v=C_LXWEQAy5w (สามารถทำตามขั้นตอนที่)
 
 
 
