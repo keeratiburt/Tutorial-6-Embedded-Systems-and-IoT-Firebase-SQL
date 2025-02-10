@@ -35,7 +35,7 @@ T 6.1 ส่งค่าขึ้นฐานข้อมูล Firebase
 
 --------------------
 
-T 7.2 ส่งค่าขึ้นฐานข้อมูล SQL
+T 6.2 ส่งค่าขึ้นฐานข้อมูล SQL
 1. ดูวิธีการสร้าง database ที่ลิงค์ https://www.youtube.com/watch?v=F5T8isU13bU (ดูถึงแค่นาทีที่ 20) เนื้อหาในคลิปจะเป็นการใช้งาน 000webhost แต่ให้นักศึกษาใช้ infinityFree แทน
 2. เขียนโปรแกรมฝั่ง cloud โดยดาวน์โหลดไฟล์ con_db.php, data_receive.php ได้ที่โฟลเดอร์ lab6.2
 3. นำไฟล์ con_db.php และ data_receive.php ไปใส่ไว้ในโฟลเดอร์ htdocs บน infinityFree
