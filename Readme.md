@@ -1,11 +1,17 @@
-# Tutorial-6-Embedded-Systems-and-IoT
-การส่งค่าเข้าฐานข้อมูลแบบ real-time ด้วย Firebase
+# Tutorial-6-Embedded-Systems-and-IoT-Firebase
+# Tutorial-7-Embedded-Systems-and-IoT-SQL (MariaDB)
+
+<h1>การส่งค่าเข้าฐานข้อมูลแบบ</h1>
+
+<h3>Objectives</h3>
+
+1. ส่งค่าเข้าฐานข้อมูล Firebase ได้
+2. ส่งค่าเข้าฐานข้อมูล MySQL ได้
 
 
-Objectives
-1.  ส่งค่าเข้าฐานข้อมูล Firebase ได้
 
-Hardware
+<h3>Hardware</h3>
+
 1.	DHT Sensor หรือ Ultrasonic         1	        
 2.	LED		                          x
 4.	Breadboard                        1
@@ -17,7 +23,7 @@ Software
 --------------------
 Instruction
 
-T 6.1 ส่งค่าขึ้นฐานข้อมูล Firebase
+T 6 ส่งค่าขึ้นฐานข้อมูล Firebase
 1. ตั้งค่า Firebase โดยทำตามขั้นตอนในลิงค์นี้ https://docs.google.com/document/d/1LjWkR9mvH9aqHAJQuuZbgV3OkncwM3AxFvffaiNQIKk/edit?usp=sharing
 2. คัดลอกโค้ดในโฟลเดอร์ lab6.1 > Lab6-1.ino
 3. ติดตั้ง Firebase Library โดยดูขั้นตอนจากลิงค์เดียวกัน
@@ -35,7 +41,7 @@ T 6.1 ส่งค่าขึ้นฐานข้อมูล Firebase
 
 --------------------
 
-T 6.2 ส่งค่าขึ้นฐานข้อมูล SQL
+T 7 ส่งค่าขึ้นฐานข้อมูล SQL
 1. ดูวิธีการสร้าง database ที่ลิงค์ https://www.youtube.com/watch?v=F5T8isU13bU (ดูถึงแค่นาทีที่ 20) เนื้อหาในคลิปจะเป็นการใช้งาน 000webhost แต่ให้นักศึกษาใช้ infinityFree แทน
 2. เขียนโปรแกรมฝั่ง cloud โดยดาวน์โหลดไฟล์ con_db.php, data_receive.php ได้ที่โฟลเดอร์ lab6.2
 3. นำไฟล์ con_db.php และ data_receive.php ไปใส่ไว้ในโฟลเดอร์ htdocs บน infinityFree
