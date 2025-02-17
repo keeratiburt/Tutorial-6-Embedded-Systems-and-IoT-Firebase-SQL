@@ -18,12 +18,14 @@
 5.	Computer	                      1
 6.	microUSB	                      1 
 
-Software
+<h3>Software</h3>h3>
+
 1. Arduino IDE
 --------------------
-Instruction
+<h3>Instruction</h3>
 
-T 6 ส่งค่าขึ้นฐานข้อมูล Firebase
+<h2>Lab 6 ส่งค่าขึ้นฐานข้อมูล Firebase</h2>
+
 1. ตั้งค่า Firebase โดยทำตามขั้นตอนในลิงค์นี้ https://docs.google.com/document/d/1LjWkR9mvH9aqHAJQuuZbgV3OkncwM3AxFvffaiNQIKk/edit?usp=sharing
 2. คัดลอกโค้ดในโฟลเดอร์ lab6.1 > Lab6-1.ino
 3. ติดตั้ง Firebase Library โดยดูขั้นตอนจากลิงค์เดียวกัน
@@ -41,7 +43,8 @@ T 6 ส่งค่าขึ้นฐานข้อมูล Firebase
 
 --------------------
 
-T 7 ส่งค่าขึ้นฐานข้อมูล SQL
+<h2>Lab 7 ส่งค่าขึ้นฐานข้อมูล SQL</h2>
+
 1. ดูวิธีการสร้าง database ที่ลิงค์ https://www.youtube.com/watch?v=F5T8isU13bU (ดูถึงแค่นาทีที่ 20) เนื้อหาในคลิปจะเป็นการใช้งาน 000webhost แต่ให้นักศึกษาใช้ infinityFree แทน
 2. เขียนโปรแกรมฝั่ง cloud โดยดาวน์โหลดไฟล์ con_db.php, data_receive.php ได้ที่โฟลเดอร์ lab6.2
 3. นำไฟล์ con_db.php และ data_receive.php ไปใส่ไว้ในโฟลเดอร์ htdocs บน infinityFree
