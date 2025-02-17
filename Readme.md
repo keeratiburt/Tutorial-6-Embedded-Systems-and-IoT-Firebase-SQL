@@ -1,7 +1,7 @@
 # Tutorial-6-Embedded-Systems-and-IoT-Firebase
 # Tutorial-7-Embedded-Systems-and-IoT-SQL (MariaDB)
 
-<h1>การส่งค่าเข้าฐานข้อมูลแบบ</h1>
+<h2>การส่งค่าเข้าฐานข้อมูล</h2>
 
 <h3>Objectives</h3>
 
